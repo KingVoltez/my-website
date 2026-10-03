@@ -77,7 +77,9 @@ nav a:hover {
   box-shadow: 0 6px 16px rgba(108, 60, 255, 0.12);
             position: relative;
   overflow: hidden;
-  transition: box-shadow 0.2s ease;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: default;
+  will-change: transform;
 }
         
 </style>
