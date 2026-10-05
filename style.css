@@ -297,6 +297,12 @@ nav a:hover {
   margin-top: 28px;
 }
 @media (max-width: 1000px) {
+  html,
+body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
   main {
   width: calc(100% - 30px);
   max-width: 100%;
