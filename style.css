@@ -290,7 +290,7 @@ nav a:hover {
   transform: translateY(-2px);
   box-shadow: 0 6px 14px rgba(108, 60, 255, 0.3);
    }   
-@media (max-width: 700px) {
+@media (max-width: 1000px) {
   main {
     padding: 40px 22px;
     margin: 25px 15px;
