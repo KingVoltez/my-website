@@ -332,3 +332,64 @@ nav a:hover {
   font-size: 14px;
   border-top: 1px solid #ddd6ff;
  }       
+
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+  margin-top: 28px;
+}
+
+.movie-card {
+  background-color: white;
+  border: 1px solid #d8ceff;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 3px 8px rgba(108, 60, 255, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.movie-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(108, 60, 255, 0.18);
+}
+
+.movie-poster {
+  height: 260px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #eeeaff;
+  color: #8a7bb8;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.movie-info {
+  padding: 18px;
+}
+
+.movie-info h4 {
+  margin: 0;
+  font-size: 20px;
+  color: #333;
+}
+
+.movie-info p {
+  margin: 10px 0 14px;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #666;
+}
+
+.movie-rating {
+  font-size: 15px;
+  font-weight: 700;
+  color: #6c3cff;
+}
+
+.movie-rating span {
+  margin-right: 4px;
+}
