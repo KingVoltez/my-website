@@ -298,20 +298,18 @@ nav a:hover {
 }
 @media (max-width: 1000px) {
   html,
-body {
-  width: 100%;
-  max-width: 100%;
-  overflow-x: hidden;
-}
+  body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
   main {
-  width: calc(100% - 30px);
-  max-width: 100%;
-  padding: 40px 22px;
-  margin: 25px 15px;
-    body {
-  overflow-x: hidden;
-    }
-}
+    width: calc(100% - 30px);
+    max-width: 100%;
+    padding: 40px 22px;
+    margin: 25px 15px;
+  }
 
   .site-header h1 {
     font-size: 34px;
@@ -340,16 +338,17 @@ body {
   .community-preview {
     gap: 12px;
   }
-  .movie-grid {
-  grid-template-columns: minmax(0, 1fr);
-  width: 100%;
-}
 
-.movie-card {
-  width: 100%;
-  min-width: 0;
+  .movie-grid {
+    grid-template-columns: minmax(0, 1fr);
+    width: 100%;
+  }
+
+  .movie-card {
+    width: 100%;
+    min-width: 0;
+  }
 }
-}   
  footer {
   margin-top: 30px;
   padding: 20px;
