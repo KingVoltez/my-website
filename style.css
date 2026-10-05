@@ -355,7 +355,7 @@ nav a:hover {
 }
 
 .movie-poster {
-  height: 260px;
+  aspect-ratio: 2 / 3;
   display: flex;
   align-items: center;
   justify-content: center;
