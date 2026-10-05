@@ -298,9 +298,10 @@ nav a:hover {
 }
 @media (max-width: 1000px) {
   main {
-    padding: 40px 22px;
-    margin: 25px 15px;
-  }
+  width: 100%;
+  padding: 40px 22px;
+  margin: 25px 15px;
+}
 
   .site-header h1 {
     font-size: 34px;
