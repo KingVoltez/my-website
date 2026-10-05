@@ -393,3 +393,7 @@ nav a:hover {
 .movie-rating span {
   margin-right: 4px;
 }
+
+.movie-grid {
+  grid-template-columns: 1fr;
+}
