@@ -330,8 +330,13 @@ nav a:hover {
     gap: 12px;
   }
   .movie-grid {
-  grid-template-columns: 1fr;
+  grid-template-columns: minmax(0, 1fr);
   width: 100%;
+}
+
+.movie-card {
+  width: 100%;
+  min-width: 0;
 }
 }   
  footer {
