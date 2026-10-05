@@ -289,7 +289,13 @@ nav a:hover {
   background-color: #5428d6;
   transform: translateY(-2px);
   box-shadow: 0 6px 14px rgba(108, 60, 255, 0.3);
-   }   
+   }  
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+  margin-top: 28px;
+}
 @media (max-width: 1000px) {
   main {
     padding: 40px 22px;
@@ -336,13 +342,6 @@ nav a:hover {
   font-size: 14px;
   border-top: 1px solid #ddd6ff;
  }       
-
-.movie-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 22px;
-  margin-top: 28px;
-}
 
 .movie-card {
   background-color: white;
