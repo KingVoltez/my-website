@@ -576,3 +576,10 @@ nav a:hover {
     width: 100%;
   }
 }
+
+.movie-cast {
+  font-size: 17px;
+  color: #555;
+  line-height: 1.6;
+  margin-top: 8px;
+}
