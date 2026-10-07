@@ -632,3 +632,30 @@ nav a:hover {
   font-weight: 700;
   cursor: pointer;
 }
+
+.community-rating {
+  margin-top: 40px;
+  padding-top: 22px;
+  border-top: 1px solid #ddd6ff;
+}
+
+.community-rating h3 {
+  margin-top: 0;
+}
+
+.community-rating p {
+  font-size: 17px;
+  color: #555;
+  margin-top: 8px;
+}
+
+.community-score {
+  margin-top: 14px;
+  font-size: 24px;
+  font-weight: 800;
+  color: #6c3cff;
+}
+
+.community-score span {
+  margin-right: 5px;
+}
