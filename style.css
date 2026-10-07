@@ -422,7 +422,7 @@ nav a:hover {
 
   display: -webkit-box;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: unset;
+  -webkit-line-clamp: 3;
   overflow: hidden;
 }
 
