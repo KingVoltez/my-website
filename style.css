@@ -431,6 +431,7 @@ nav a:hover {
 .movie-card {
     text-decoration: none;
   background-color: white;
+    cursor: pointer;
   border: 1px solid #d8ceff;
   border-radius: 14px;
   overflow: hidden;
