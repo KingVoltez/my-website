@@ -351,7 +351,7 @@ nav a:hover {
   .movie-info h4 {
   font-size: 15px;
   white-space: normal;
-  word-break: keep-all;
+  word-break: normal;
   overflow-wrap: normal;
   
 }
