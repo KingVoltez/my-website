@@ -410,6 +410,7 @@ nav a:hover {
 }
 
 .movie-info h4 {
+  outline: 2px solid red;
   margin: 0;
   font-size: 20px;
   color: #333;
