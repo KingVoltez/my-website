@@ -680,3 +680,14 @@ nav a:hover {
   line-height: 1.6;
   color: #555;
 }
+
+.review-rating {
+  margin-top: 8px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #6c3cff;
+}
+
+.review-rating span {
+  margin-right: 4px;
+}
