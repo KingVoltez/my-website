@@ -550,6 +550,18 @@ nav a:hover {
   margin-right: 4px;
 }
 
+.movie-detail-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 18px;
+  font-size: 15px;
+  color: #666;
+}
+
+.movie-detail-meta strong {
+  color: #444;
+}
 @media (max-width: 600px) {
   .movie-detail {
     flex-direction: column;
