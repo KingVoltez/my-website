@@ -743,3 +743,16 @@ nav a:hover {
   font-size: 14px;
   font-weight: 700;
 }
+
+.back-to-movies {
+  display: inline-block;
+  margin-bottom: 18px;
+  color: #6c3cff;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.back-to-movies:hover {
+  text-decoration: underline;
+}
