@@ -406,6 +406,7 @@ nav a:hover {
   font-size: 20px;
   color: #333;
   line-height: 1.25;
+  min-height: 50px;
 
   display: -webkit-box;
   -webkit-box-orient: vertical;
