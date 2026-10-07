@@ -410,6 +410,9 @@ nav a:hover {
   color: #333;
   line-height: 1.25;
   min-height: 50px;
+  width: 100%;
+  overflow-wrap: normal;
+  word-break: normal;
 
   display: -webkit-box;
   -webkit-box-orient: vertical;
