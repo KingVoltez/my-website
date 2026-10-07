@@ -697,3 +697,49 @@ nav a:hover {
   font-size: 13px;
   color: #888;
 }
+
+.similar-movies {
+  margin-top: 40px;
+  padding-top: 22px;
+  border-top: 1px solid #ddd6ff;
+}
+
+.similar-movies h3 {
+  margin-top: 0;
+}
+
+.similar-movies p {
+  font-size: 17px;
+  color: #555;
+  margin-top: 8px;
+}
+
+.similar-movie-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+  margin-top: 20px;
+}
+
+.similar-movie-card {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 16px;
+  background-color: white;
+  border: 1px solid #d8ceff;
+  border-radius: 12px;
+  text-decoration: none;
+  box-shadow: 0 2px 6px rgba(108, 60, 255, 0.08);
+}
+
+.similar-movie-card strong {
+  color: #333;
+  font-size: 16px;
+}
+
+.similar-movie-card span {
+  color: #6c3cff;
+  font-size: 14px;
+  font-weight: 700;
+}
