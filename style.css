@@ -429,6 +429,7 @@ nav a:hover {
  }       
 
 .movie-card {
+    text-decoration: none;
   background-color: white;
   border: 1px solid #d8ceff;
   border-radius: 14px;
