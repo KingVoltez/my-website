@@ -385,6 +385,13 @@ nav a:hover {
   text-transform: uppercase;
 }
 
+.movie-poster img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
 .movie-info {
   padding: 18px;
 }
