@@ -691,3 +691,9 @@ nav a:hover {
 .review-rating span {
   margin-right: 4px;
 }
+
+.review-date {
+  margin-top: 4px;
+  font-size: 13px;
+  color: #888;
+}
