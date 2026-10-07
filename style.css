@@ -91,6 +91,31 @@ nav a:hover {
   padding: 8px 0;
 }
 
+.movie-filters {
+  display: flex;
+  gap: 10px;
+  margin-top: 24px;
+  margin-bottom: 28px;
+  flex-wrap: wrap;
+}
+
+.movie-filters button {
+  padding: 11px 18px;
+  background-color: white;
+  color: #6c3cff;
+  border: 1px solid #d8ceff;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.movie-filters button:hover {
+  background-color: #faf9ff;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 10px rgba(108, 60, 255, 0.15);
+}
 .category-links a {
   padding: 12px 20px;
   background-color: white;
